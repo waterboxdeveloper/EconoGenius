@@ -76,7 +76,7 @@ class AIAssistant:
             raise Exception(f"Error al generar la respuesta: {e}")  # Manejar errores al generar la respuesta
 
 # Uso del AIAssistant
-pdf_path = "/Users/egc/Documents/ECONOMIA/concurso/concurso.pdf"
+pdf_path = "concurso.pdf"
 assistant = AIAssistant(pdf_path)  # Crear una instancia del asistente con el PDF
 
 # Ejemplo de interacción
