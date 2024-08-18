@@ -1,0 +1,5 @@
+streamlit
+pandas
+streamlit-chat
+PyPDF2
+google-generativeai

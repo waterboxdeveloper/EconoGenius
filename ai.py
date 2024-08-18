@@ -46,13 +46,13 @@ class AIAssistant:
                 {
                     "role": "user",
                     "parts": [
-                        "Hola, ¿cómo puedo ayudarte con el reglamento?\n",  # Mensaje inicial del usuario
+                        "Haz una pregunta El Capital o la Riqueza De Las Naciones?\n",  # Mensaje inicial del usuario
                     ],
                 },
                 {
                     "role": "model",
                     "parts": [
-                        "¡Hola! Estoy aquí para responder tus preguntas sobre el reglamento de la universidad.\n",  # Mensaje inicial del modelo
+                        "¡Hola! Estoy aquí para responder tus preguntas sobre El Capital o la Riqueza De Las Nacionesd.\n",  # Mensaje inicial del modelo
                     ],
                 },
             ]
@@ -80,7 +80,7 @@ pdf_path = "/Users/egc/Documents/ECONOMIA/concurso/concurso.pdf"
 assistant = AIAssistant(pdf_path)  # Crear una instancia del asistente con el PDF
 
 # Ejemplo de interacción
-user_input = "¿Cuál es el horario de atención de la facultad?"  # Pregunta del usuario
+user_input = ""  # Pregunta del usuario
 conversation_history = ""  # Inicializar el historial de la conversación
 response, conversation_history = assistant.generate_response(user_input, conversation_history)  # Generar la respuesta
 print(response)  # Imprimir la respuesta generada
