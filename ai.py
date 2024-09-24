@@ -46,13 +46,13 @@ class AIAssistant:
                 {
                     "role": "user",
                     "parts": [
-                        "Haz una pregunta El Capital o la Riqueza De Las Naciones?\n",  # Mensaje inicial del usuario
+                        "Haz una pregunta Ley de Instituciones de Seguros y de Fianzas?\n",  # Mensaje inicial del usuario
                     ],
                 },
                 {
                     "role": "model",
                     "parts": [
-                        "¡Hola! Estoy aquí para responder tus preguntas sobre El Capital o la Riqueza De Las Nacionesd.\n",  # Mensaje inicial del modelo
+                        "¡Hola! Estoy aquí para responder tus preguntas sobre Ley de Instituciones de Seguros y de Fianzas.\n",  # Mensaje inicial del modelo
                     ],
                 },
             ]
@@ -76,7 +76,7 @@ class AIAssistant:
             raise Exception(f"Error al generar la respuesta: {e}")  # Manejar errores al generar la respuesta
 
 # Uso del AIAssistant
-pdf_path = "concurso.pdf"
+pdf_path = "LEY_DE_INSTITUCIONES_DE SEGUROS_Y_DE_FIANZAS.pdf"
 assistant = AIAssistant(pdf_path)  # Crear una instancia del asistente con el PDF
 
 # Ejemplo de interacción

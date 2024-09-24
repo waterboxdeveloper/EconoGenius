@@ -44,8 +44,8 @@ def main():
     Muestra el título, el texto del PDF, el historial de la conversación y
     proporciona un campo de entrada para las preguntas del usuario.
     """
-    st.title("EconoGenius🧠")
-    st.subheader("Transforma teorías en percepciones💡.")
+    st.title("SeguBot 🤖")
+    st.subheader("Ley de Instituciones de Seguros y de Fianzas💡.")
 
     # Extraer el texto del PDF fijo usando la instancia de AIAssistant
     pdf_text = assistant.pdf_text
@@ -70,7 +70,7 @@ def main():
 
     # Entrada de texto del usuario para hacer preguntas
     with st.container():
-        st.text_input("Haz una pregunta El Capital o la Riqueza De Las Naciones:", on_change=on_input_change, key="user_input")
+        st.text_input("Haz una pregunta sobre Ley de Instituciones de Seguros y de Fianzas", on_change=on_input_change, key="user_input")
 
 if __name__ == "__main__":
     main()
